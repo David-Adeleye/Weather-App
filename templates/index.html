@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Prediction App</title>
+</head>
+
+<body>
+    <h1>Weather Prediction App</h1>
+    <form action="/predict" method="post">
+        <label for="temp_min">Temperature Min:</label>
+        <input type="text" name="temp_min" required>
+        <br>
+
+        <label for="temp_max">Temperature Max:</label>
+        <input type="text" name="temp_max" required>
+        <br>
+
+        <label for="precipitation">Precipitation:</label>
+        <input type="text" name="precipitation" required>
+        <br>
+
+        <label for="wind">Wind:</label>
+        <input type="text" name="wind" required>
+        <br>
+
+        <button type="submit">Predict Weather</button>
+    </form>
+</body>
+
+</html>
